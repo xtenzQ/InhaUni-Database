@@ -1,0 +1,1 @@
+SELECT max(salary) FROM instructor;

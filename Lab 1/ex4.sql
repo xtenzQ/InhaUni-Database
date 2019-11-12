@@ -1,0 +1,1 @@
+SELECT course_id as Course_ID, COUNT(distinct ID) as Students FROM takes WHERE semester = 'Fall' AND year = '2009' group by Course_ID order by Students desc limit 1;

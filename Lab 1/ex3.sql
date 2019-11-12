@@ -1,0 +1,1 @@
+SELECT sec_id as Section_ID, SUM(Students) as Enrollments FROM( Select sec_id, course_id, COUNT(course_id) as Students FROM takes WHERE semester = 'Fall' AND year = '2009' group by sec_id,course_id)query group by Section_ID;
