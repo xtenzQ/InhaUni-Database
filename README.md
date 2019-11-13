@@ -29,7 +29,7 @@ $ mysql_config --cflags
 
 To install this project simply clone it to your folder:
 ```
-$ git clone https://github.com/xtenzQ/Uni-Database.git
+$ git clone git://github.com/xtenzQ/Uni-Database.git
 ```
 
 ## 🔧 Compile
